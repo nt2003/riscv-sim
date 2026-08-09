@@ -1,1 +1,0 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/riscv-sim.dir/src/cpu.cpp.o" "CMakeFiles/riscv-sim.dir/src/decoder.cpp.o" "CMakeFiles/riscv-sim.dir/src/elf_loader.cpp.o" "CMakeFiles/riscv-sim.dir/src/main.cpp.o" "CMakeFiles/riscv-sim.dir/src/memory.cpp.o" -o riscv-sim

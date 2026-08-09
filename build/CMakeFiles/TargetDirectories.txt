@@ -1,4 +1,0 @@
-/Users/nicolastrejo/riscv-sim/build/CMakeFiles/riscv-sim.dir
-/Users/nicolastrejo/riscv-sim/build/CMakeFiles/tests.dir
-/Users/nicolastrejo/riscv-sim/build/CMakeFiles/edit_cache.dir
-/Users/nicolastrejo/riscv-sim/build/CMakeFiles/rebuild_cache.dir
