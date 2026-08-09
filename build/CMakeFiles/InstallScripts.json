@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/nicolastrejo/riscv-sim/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

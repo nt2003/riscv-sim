@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.16)
+project(riscv-sim CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+file(GLOB SOURCES "src/*.cpp")
+
+add_executable(riscv-sim ${SOURCES})
+
+target_include_directories(riscv-sim PRIVATE src)
+
+add_executable(tests 
+    tests/decoder_tb.cpp 
+    #tests/memory_tb.cpp
+    #tests/cpu_tb.cpp
+    src/decoder.cpp 
+    src/memory.cpp
+    src/cpu.cpp
+)
+target_include_directories(tests PRIVATE src external)
